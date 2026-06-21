@@ -1,0 +1,27 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle/
+build/
+
+# Android
+capture/
+output.json
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other
+.artifacts/
+temp/
