@@ -32,6 +32,28 @@ Every system design question in this repo follows the same structure:
 12. **Trade-offs**
 13. **Low Level Design**
 
+## Reusable Concepts
+Common concepts that are reused across different system designs.
+- [Caching](./concepts/caching/)
+- [Pagination](./concepts/pagination/)
+- [Offline Sync](./concepts/offline-sync/)
+- [WebSockets](./concepts/websocket/)
+- [Notifications](./concepts/notifications/)
+- [Retry Strategies](./concepts/retry-strategy/)
+- [Conflict Resolution](./concepts/conflict-resolution/)
+- [Modularization](./concepts/modularization/)
+
+## Reusable Patterns
+Standard patterns for common mobile features.
+- [Search Pattern](./patterns/search-pattern.md)
+- [Feed Pattern](./patterns/feed-pattern.md)
+- [Chat Pattern](./patterns/chat-pattern.md)
+- [Upload Pattern](./patterns/upload-pattern.md)
+- [Download Pattern](./patterns/download-pattern.md)
+- [Offline First Pattern](./patterns/offline-first-pattern.md)
+- [Tracking Pattern](./patterns/tracking-pattern.md)
+- [Notification Pattern](./patterns/notification-pattern.md)
+
 ## Navigation
 Use the folders in this repository to explore specific design problems categorized by their core functionality.
 - [Search](./search/)
@@ -64,3 +86,14 @@ Questions should be solved in the following order:
 10. Analytics SDK
 11. Feature Flag System
 12. Deep Linking
+
+## Contribution Workflow
+For every new system design question:
+1. Start with requirements.
+2. Follow HLD template.
+3. Follow LLD template.
+4. Reuse concepts from [concepts/](./concepts/) folder.
+5. Reuse patterns from [patterns/](./patterns/) folder.
+6. Add diagrams.
+7. Complete [interview checklist](./templates/interview-checklist.md).
+8. Perform [interview evaluation](./templates/interview-evaluation.md).
