@@ -71,8 +71,8 @@ Questions should be solved in the following order:
 
 ### Phase 1
 1. YouTube Search
-2. Instagram Feed
-3. Offline Notes App
+2. Offline Notes App
+3. Instagram Feed
 4. WhatsApp Chat
 
 ### Phase 2
