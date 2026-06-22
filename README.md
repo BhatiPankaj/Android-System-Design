@@ -32,6 +32,76 @@ Every system design question in this repo follows the same structure:
 12. **Trade-offs**
 13. **Low Level Design**
 
+# Phase 0 — Fundamentals
+Before solving system design interview questions, study the following fundamentals.
+
+## Communication Protocols
+- [REST](./fundamentals/communication/rest/)
+- [GraphQL](./fundamentals/communication/graphql/)
+- [gRPC](./fundamentals/communication/grpc/)
+
+## Realtime Communication
+- [Short Polling](./fundamentals/realtime-communication/short-polling/)
+- [Long Polling](./fundamentals/realtime-communication/long-polling/)
+- [WebSocket](./fundamentals/realtime-communication/websocket/)
+- [SSE](./fundamentals/realtime-communication/server-sent-events/)
+
+## Pagination
+- [Offset Pagination](./fundamentals/pagination/offset-pagination/)
+- [Cursor Pagination](./fundamentals/pagination/cursor-pagination/)
+- [Keyset Pagination](./fundamentals/pagination/keyset-pagination/)
+- [Page Number Pagination](./fundamentals/pagination/page-number-pagination/)
+
+## Storage
+- [SQLite](./fundamentals/storage/sqlite-room/)
+- [Key Value Storage](./fundamentals/storage/key-value-storage/)
+- [File Storage](./fundamentals/storage/file-storage/)
+- [Object Storage](./fundamentals/storage/object-storage/)
+- [CDN](./fundamentals/storage/cdn/)
+
+## Caching
+- [Memory Cache](./fundamentals/caching/memory-cache/)
+- [Disk Cache](./fundamentals/caching/disk-cache/)
+- [TTL](./fundamentals/caching/ttl/)
+- [Cache Invalidation](./fundamentals/caching/cache-invalidation/)
+- [LRU Cache](./fundamentals/caching/lru-cache/)
+
+## Network Resilience
+- [Retry](./fundamentals/network-resilience/retry/)
+- [Exponential Backoff](./fundamentals/network-resilience/exponential-backoff/)
+- [Circuit Breaker](./fundamentals/network-resilience/circuit-breaker/)
+- [Timeout](./fundamentals/network-resilience/timeout/)
+- [Rate Limiting](./fundamentals/network-resilience/rate-limiting/)
+- [Idempotency](./fundamentals/network-resilience/idempotency/)
+
+## Synchronization
+- [Pull Sync](./fundamentals/synchronization/pull-sync/)
+- [Push Sync](./fundamentals/synchronization/push-sync/)
+- [Conflict Resolution](./fundamentals/synchronization/conflict-resolution/)
+- [Source of Truth](./fundamentals/synchronization/source-of-truth/)
+- [Eventual Consistency](./fundamentals/synchronization/eventual-consistency/)
+
+## Security
+- [HTTPS](./fundamentals/security/https/)
+- [TLS](./fundamentals/security/tls/)
+- [OAuth](./fundamentals/security/oauth/)
+- [JWT](./fundamentals/security/jwt/)
+- [API Keys](./fundamentals/security/api-keys/)
+- [Certificate Pinning](./fundamentals/security/certificate-pinning/)
+
+## Media Systems
+- [Chunk Upload](./fundamentals/media-systems/chunk-upload/)
+- [Multipart Upload](./fundamentals/media-systems/multipart-upload/)
+- [Compression](./fundamentals/media-systems/compression/)
+- [Resume Download](./fundamentals/media-systems/resume-download/)
+
+## Architecture Patterns
+- [MVVM](./fundamentals/architecture-patterns/mvvm/)
+- [Repository Pattern](./fundamentals/architecture-patterns/repository-pattern/)
+- [Single Source of Truth](./fundamentals/architecture-patterns/single-source-of-truth/)
+- [Offline First](./fundamentals/architecture-patterns/offline-first/)
+- [Event Driven Architecture](./fundamentals/architecture-patterns/event-driven-architecture/)
+
 ## Reusable Concepts
 Common concepts that are reused across different system designs.
 - [Caching](./concepts/caching/)
