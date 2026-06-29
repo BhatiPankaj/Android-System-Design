@@ -102,6 +102,19 @@ Before solving system design interview questions, study the following fundamenta
 - [Offline First](./fundamentals/architecture-patterns/offline-first/)
 - [Event Driven Architecture](./fundamentals/architecture-patterns/event-driven-architecture/)
 
+## Notifications
+Topics:
+- [Push Notifications](./fundamentals/notifications/push-notifications/)
+- [Firebase Cloud Messaging (FCM)](./fundamentals/notifications/fcm/)
+- [Apple Push Notification Service (APNs)](./fundamentals/notifications/apns/)
+- [Notification Types](./fundamentals/notifications/notification-types/)
+
+Examples:
+- WhatsApp message notification
+- Instagram notification system
+- Gmail new email notifications
+- Uber ride status notifications
+
 ## Reusable Concepts
 Common concepts that are reused across different system designs.
 - [Caching](./concepts/caching/)
