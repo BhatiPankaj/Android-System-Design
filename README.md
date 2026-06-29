@@ -115,14 +115,14 @@ Common concepts that are reused across different system designs.
 
 ## Reusable Patterns
 Standard patterns for common mobile features.
-- [Search Pattern](./patterns/search-pattern.md)
-- [Feed Pattern](./patterns/feed-pattern.md)
-- [Chat Pattern](./patterns/chat-pattern.md)
-- [Upload Pattern](./patterns/upload-pattern.md)
-- [Download Pattern](./patterns/download-pattern.md)
-- [Offline First Pattern](./patterns/offline-first-pattern.md)
-- [Tracking Pattern](./patterns/tracking-pattern.md)
-- [Notification Pattern](./patterns/notification-pattern.md)
+- [Search Pattern](interview-patterns/search-pattern.md)
+- [Feed Pattern](interview-patterns/feed-pattern.md)
+- [Chat Pattern](interview-patterns/chat-pattern.md)
+- [Upload Pattern](interview-patterns/upload-pattern.md)
+- [Download Pattern](interview-patterns/download-pattern.md)
+- [Offline First Pattern](interview-patterns/offline-first-pattern.md)
+- [Tracking Pattern](interview-patterns/tracking-pattern.md)
+- [Notification Pattern](interview-patterns/notification-pattern.md)
 
 ## Navigation
 Use the folders in this repository to explore specific design problems categorized by their core functionality.
@@ -163,7 +163,7 @@ For every new system design question:
 2. Follow HLD template.
 3. Follow LLD template.
 4. Reuse concepts from [concepts/](./concepts/) folder.
-5. Reuse patterns from [patterns/](./patterns/) folder.
+5. Reuse patterns from [patterns/](interview-patterns/) folder.
 6. Add diagrams.
 7. Complete [interview checklist](./templates/interview-checklist.md).
 8. Perform [interview evaluation](./templates/interview-evaluation.md).
